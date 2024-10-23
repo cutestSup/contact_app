@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/btn_search"
+        android:title="Search"
+        android:icon="@drawable/baseline_search_24"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/menu"
+        app:showAsAction="always"
+        android:title=" "
+        android:icon="@drawable/baseline_menu_24">
+        <menu>
+            <item
+                android:id="@+id/setting"
+                android:title="Setting"
+                android:icon="@drawable/baseline_settings_24"
+                app:showAsAction="never"/>
+            <item
+                android:id="@+id/share"
+                android:title="Share"
+                android:icon="@drawable/baseline_share_24"
+                app:showAsAction="never"/>
+            <item
+                android:id="@+id/info"
+                android:title="About us"
+                android:icon="@drawable/baseline_info_24"
+                app:showAsAction="never"/>
+            <item
+                android:id="@+id/exit"
+                android:title="Exit"
+                android:icon="@drawable/baseline_exit_to_app_24"
+                app:showAsAction="never"/>
+        </menu>
+    </item>
+</menu>
